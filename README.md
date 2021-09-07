@@ -1,3 +1,5 @@
+### Relayer installation and configuration
+
 Download, install and check version for relayer
 
 ```
@@ -92,6 +94,8 @@ rly light init groot-011 -f
 rly light init kichain-t-4 -f
 ```
 
+### Channel creation and cross-chain transactions
+
 Create a channel between networks
 
 ```rly paths generate groot-011 kichain-t-4 transfer```
@@ -157,6 +161,7 @@ Let's check the hash here
 * https://ki.thecodes.dev/tx/9DC6DAE6E5C76452D2F6F3DC7C452D4EB26C1ADDF2B912B3D139FE0526603A7C
 * https://testnet.mintscan.io/rizon/txs/68267BC03E6FCADAF33F29C826316B800BF48918BAEC2D0AFBC1A8E58BC47714
 
+### Creation of open channel for transfers from any node.
 
 Finally let's config relayer as remote service for any wallet sending
 
