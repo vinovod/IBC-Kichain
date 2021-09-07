@@ -138,10 +138,11 @@ For current test we used the string like that:
 ```rly tx transfer groot-011 kichain-t-4 1000000uatolo tki1ft56wsankvpw02ul4mg86udytn9ex2cw4nnr2a --path=transfer```
 
 Success is a string like that with hash:  ✔ [groot-011]@{424876} - msg(0:transfer) hash(4419E0A9975BBD5A6475C549039564DA9ABF096AAA63D2C2949AED2A601763B0)
+
 Let's check the hash here
-https://testnet.mintscan.io/rizon/txs/4419E0A9975BBD5A6475C549039564DA9ABF096AAA63D2C2949AED2A601763B0
-https://testnet.mintscan.io/rizon/account/rizon1ft56wsankvpw02ul4mg86udytn9ex2cwcn5508
-https://ki.thecodes.dev/tx/7741335A1863A9024A5C053B56B9D3A1BFC875D24D0E8B293F1D5AB12AF382BB
+* https://testnet.mintscan.io/rizon/txs/4419E0A9975BBD5A6475C549039564DA9ABF096AAA63D2C2949AED2A601763B0
+* https://testnet.mintscan.io/rizon/account/rizon1ft56wsankvpw02ul4mg86udytn9ex2cwcn5508
+* https://ki.thecodes.dev/tx/7741335A1863A9024A5C053B56B9D3A1BFC875D24D0E8B293F1D5AB12AF382BB
 
 Another hash of successfully performed transaction: E7FA050721C29923F9AA863F1472B5CB14B57BA406F3C0A7772E5346F8A787ED
 D67FD231104CFB1D2C7FB21DCC7D934A1D0D831D3B4B978B30AF4FFECE506572
@@ -151,9 +152,10 @@ Now try to perform transaction in opposite direction: from KiChain to Rizon
 ```rly tx transfer kichain-t-4 groot-011 1000000utki rizon1ft56wsankvpw02ul4mg86udytn9ex2cwcn5508 --path=transfer```
 
 Success is a string like that with hash: ✔ [kichain-t-4]@{227477} - msg(0:transfer) hash(9DC6DAE6E5C76452D2F6F3DC7C452D4EB26C1ADDF2B912B3D139FE0526603A7C)
-#Let's check the hash here
-https://ki.thecodes.dev/tx/9DC6DAE6E5C76452D2F6F3DC7C452D4EB26C1ADDF2B912B3D139FE0526603A7C
-https://testnet.mintscan.io/rizon/txs/68267BC03E6FCADAF33F29C826316B800BF48918BAEC2D0AFBC1A8E58BC47714
+
+Let's check the hash here
+* https://ki.thecodes.dev/tx/9DC6DAE6E5C76452D2F6F3DC7C452D4EB26C1ADDF2B912B3D139FE0526603A7C
+* https://testnet.mintscan.io/rizon/txs/68267BC03E6FCADAF33F29C826316B800BF48918BAEC2D0AFBC1A8E58BC47714
 
 
 Finally let's config relayer as remote service for any wallet sending
